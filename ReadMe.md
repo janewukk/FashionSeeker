@@ -78,10 +78,10 @@ Use username (user’s email) as key to insert and retrieve. Contains attributes
 
 Appendix:
 Architecture Diagram
-![alt text](/imgs/architecture.png)
+![alt text](/img/architecture.png)
 
 Sample webpage
-![alt text](/imgs/webpage.jpg)
+![alt text](/img/webpage.jpg)
 
 Website
 
