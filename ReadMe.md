@@ -2,7 +2,11 @@ Final Report
 App Name: Fashion Seeker
 
 Github Link: https://github.com/janewukk/FashionSeeker
+
 S3 Endpoint: https://s3.amazonaws.com/fashionseeker/index.html
+
+Youtube Link: https://www.youtube.com/watch?v=0dJJB7wFCSI&feature=youtu.be
+
 Team members:
 Bowen Tan (bt2484)
 Junyue Wu (jw3674)
@@ -43,6 +47,7 @@ Discount Table: brand URL -> {brand name and latest discount}
 DynamoDB Update:
 Crawl shopping website URL, get the latest discount information
 Update the dynamoDB discount table every 30 minutes (automated trigger by CloudWatch event).
+
 Implementation:
 API Gateway:
 /GET
