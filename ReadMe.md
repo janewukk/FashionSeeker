@@ -18,15 +18,15 @@ Discount-driven shoppers are dissatisfied with checking promotion emails
 Promotion emails contain too much information not needed and users need one-click action for extracting the discount.
 
 Functionality:
-Sign up and Log in: 
+- Sign up and Log in: 
 A user can sign up for an account using the email address the first time they log in to the app.
 User’s favorite websites will be stored in dynamoDB in the backend.
 A user needs to log into the Fashion Seeker website to search and see brand’s discount.
-Search a brand:
+- Search a brand:
 Input a favorite brand and click the search button, the related brand together with its discount information will be displayed below the searching box.
 Once searched, the brand will be automatically added to the user’s favorite brand list.
 Display discount information. Once logged in and at least one website has been added, users can click on “display discount” button to display the list of latest discount information of their favorite pages.
-Send email. Once logged in and at least one website has been added, users can click on the “send email” button on the top right corner to send an email to their registered email address with the latest discount information of their favorite websites.
+- Send email. Once logged in and at least one website has been added, users can click on the “send email” button on the top right corner to send an email to their registered email address with the latest discount information of their favorite websites.
 
 Design:
 Static Webpage Hosting: 
