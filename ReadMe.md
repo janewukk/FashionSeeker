@@ -42,7 +42,9 @@ Search google API and return related website and automatically pick the most rel
 Generate discount summary per user and send the summary via SES(email service).
 - Database Support: 
 DynamoDB Design:
+
 User Table: username -> [list of favorite brand url]
+
 Discount Table: brand URL -> {brand name and latest discount}
 DynamoDB Update:
 Crawl shopping website URL, get the latest discount information
@@ -75,9 +77,9 @@ Send email daily does the same thing as 6 once a day even without the user click
 
 
 DynamoDB:
-Discount table:
+- Discount table:
 Use URL (brand website’s URL) as key to insert and retrieve. Contains attributes of discount (discount information) as a list, name (brand’s title) as a string.
-User table:
+- User table:
 Use username (user’s email) as key to insert and retrieve. Contains attributes of URLs (user’s favorite website’s URLs) as a list.
 
 
